@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="136px" viewBox="0 0 64 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1328.000000, 0.000000)">
+            <g id="bookmark" transform="translate(1332.000000, 0.000000)">
+                <g id="Group-2">
+                    <polygon id="Rectangle" fill="#000000" points="0 0 56 0 56 130 28 117.014402 0 130"></polygon>
+                    <text id="MENU" fill="#FFFFFF" transform="translate(28.000000, 61.000000) rotate(-90.000000) translate(-28.000000, -61.000000) " font-family="AmericanCaptain, American Captain" font-size="35" font-weight="normal" letter-spacing="1.67592542">
+                        <tspan x="-5.76685083" y="73">MENU</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+gallery.html
+index.html
+portfolio.html
+post.html
+posts.html
+single.html

@@ -1,0 +1,1321 @@
+@font-face {
+  font-family: 'DINPro';
+  src: url("../fonts/DINPro-Regular.eot");
+  src: url("../fonts/DINPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Regular.woff") format("woff"), url("../fonts/DINPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url("../fonts/DINPro-Medium.eot");
+  src: url("../fonts/DINPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Medium.woff") format("woff"), url("../fonts/DINPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url("../fonts/DINPro-Light.eot");
+  src: url("../fonts/DINPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'American Captain';
+  src: url("../fonts/AmericanCaptain.eot");
+  src: url("../fonts/AmericanCaptain.eot?#iefix") format("embedded-opentype"), url("../fonts/AmericanCaptain.woff") format("woff"), url("../fonts/AmericanCaptain.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Great Day Personal Use';
+  src: url("../fonts/GreatDayPersonalUse.eot");
+  src: url("../fonts/GreatDayPersonalUse.eot?#iefix") format("embedded-opentype"), url("../fonts/GreatDayPersonalUse.woff") format("woff"), url("../fonts/GreatDayPersonalUse.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-margin-start: 0px;
+     -moz-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+     -moz-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+::-moz-selection {
+  background-color: #626262;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #626262;
+  color: #ffffff;
+}
+
+.main-menu {
+  height: 0;
+  background: #d8d8d8;
+  -webkit-box-shadow: inset 0 0 30px 0 rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: inset 0 0 30px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main-menu.js-menu-opened {
+  height: 135px;
+}
+
+.main-menu .main-menu-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 25px 150px 0 150px;
+}
+
+.main-menu .main-menu-inner .menu-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-menu .main-menu-inner .menu-item img {
+  height: 50px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main-menu .main-menu-inner .menu-item h2 {
+  font-family: "American Captain";
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 1.13px;
+  margin: 12px;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.main-menu .main-menu-inner .menu-item:hover h2 {
+  color: #620000;
+}
+
+.container-wrapper {
+  width: 100vw;
+  position: relative;
+}
+
+.container-wrapper .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.container-wrapper .container .left-wrapper {
+  height: auto;
+  width: 250px;
+  min-width: 250px;
+  background-color: #d8d8d8;
+  padding: 30px;
+  position: relative;
+}
+
+.container-wrapper .container .left-wrapper .left-inner {
+  width: inherit;
+}
+
+.container-wrapper .container .left-wrapper .avatar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container-wrapper .container .left-wrapper .avatar .avatar-inner {
+  height: 180px;
+  width: 180px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: auto;
+}
+
+.container-wrapper .container .left-wrapper .avatar .avatar-inner img {
+  height: 100%;
+  width: 100%;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.container-wrapper .container .left-wrapper .avatar .avatar-inner:hover img {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+
+.container-wrapper .container .left-wrapper .sider-block {
+  margin: 10px 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block:last-child {
+  margin-bottom: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #626262;
+  padding-bottom: 8px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-header .sider-title {
+  margin-right: 20px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-header .sider-title h3 {
+  margin-top: 5px;
+  font-family: "American Captain";
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 3.7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-header .sider-spacer {
+  background: rgba(148, 146, 146, 0.7);
+  border: 1px dashed #646464;
+  height: 22px;
+  width: 100%;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content {
+  margin-bottom: 25px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact a, .container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact span {
+  font-family: "DinPro";
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.03px;
+  text-align: left;
+  padding-left: 40px;
+  display: block;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact .contact-item {
+  position: relative;
+  margin: 15px 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact .contact-item:before {
+  content: "";
+  margin: auto;
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  left: 0;
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact .contact-item.contact-phone:before {
+  background-image: url("../images/icons/phone.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact .contact-item.contact-email:before {
+  background-image: url("../images/icons/email.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact .contact-item.contact-web:before {
+  background-image: url("../images/icons/web.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-contact .contact-item.contact-location:before {
+  background-image: url("../images/icons/location.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-personal {
+  margin-top: 20px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-personal .personal-item {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 5px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-personal .personal-item:first-child {
+  margin-top: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-personal .personal-item span {
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.53px;
+  display: block;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-personal .personal-item .bolder {
+  width: 40%;
+  font-family: "DinPro";
+  font-weight: 500;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-personal .personal-item .lighter {
+  width: 60%;
+  font-family: "DinPro";
+  font-weight: 300;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-interests .interests-item {
+  position: relative;
+  margin: 10px 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-interests .interests-item:before {
+  content: "";
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 11px;
+  width: 11px;
+  background-image: url("../images/icons/arrow.svg");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-interests .interests-item span {
+  font-family: "DinPro";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.53px;
+  padding-left: 30px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect {
+  margin-bottom: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item {
+  position: relative;
+  margin: 15px 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item:before {
+  content: "";
+  margin: auto;
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  left: 0;
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item a {
+  font-family: "DinPro";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.53px;
+  padding-left: 40px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item a span {
+  font-weight: 300;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item.connect-github:before {
+  background-image: url("../images/icons/github.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item.connect-linkedin:before {
+  background-image: url("../images/icons/linkedin.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item.connect-twitter:before {
+  background-image: url("../images/icons/twitter.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item.connect-facebook:before {
+  background-image: url("../images/icons/facebook.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item.connect-instagram {
+  margin-bottom: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-connect .connect-item.connect-instagram:before {
+  background-image: url("../images/icons/instagram.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info {
+  margin-top: 20px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item {
+  padding-left: 40px;
+  position: relative;
+  margin: 12px 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item:last-child {
+  margin-bottom: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item:before {
+  content: "";
+  margin: auto;
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  left: 0;
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 20px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item h3 {
+  font-family: "DinPro";
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item span {
+  font-family: "DinPro";
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: -0.8px;
+  text-align: left;
+  display: block;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item.info-work:before {
+  background-image: url("../images/icons/location.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item.info-date:before {
+  background-image: url("../images/icons/calendar.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item.info-type:before {
+  background-image: url("../images/icons/type.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item.info-level:before {
+  background-image: url("../images/icons/level.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-info .info-item.info-stack:before {
+  background-image: url("../images/icons/gear.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post {
+  margin-top: 20px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info {
+  padding-left: 40px;
+  position: relative;
+  margin: 12px 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info:last-child {
+  margin-bottom: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info:before {
+  content: "";
+  margin: auto;
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  left: 0;
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 20px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info h3 {
+  font-family: "DinPro";
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info span {
+  font-family: "DinPro";
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: -0.8px;
+  text-align: left;
+  display: block;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-loc:before {
+  background-image: url("../images/icons/location.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-date:before {
+  background-image: url("../images/icons/calendar.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-type:before {
+  background-image: url("../images/icons/type.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-tags:before {
+  background-image: url("../images/icons/tags.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-tags .tags-holder a {
+  font-family: "DinPro";
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: -0.8px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-share:before {
+  background-image: url("../images/icons/share.svg");
+  bottom: 35px;
+  top: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-share .share-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-share .share-holder a {
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-share .share-holder a:first-child {
+  margin-left: 0;
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-share .share-holder a.linkedin {
+  background-image: url("../images/icons/linkedin.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-share .share-holder a.twitter {
+  background-image: url("../images/icons/twitter.svg");
+}
+
+.container-wrapper .container .left-wrapper .sider-block .sider-content.sider-post .post-info.info-share .share-holder a.facebook {
+  background-image: url("../images/icons/facebook.svg");
+}
+
+.container-wrapper .container .right-wrapper {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+
+.container-wrapper .container .right-wrapper .big-name-block {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #000000;
+}
+
+.container-wrapper .container .right-wrapper .big-name-block.gallery {
+  margin-top: 60px;
+}
+
+.container-wrapper .container .right-wrapper .big-name-block.post {
+  margin-top: 90px;
+}
+
+.container-wrapper .container .right-wrapper .big-name-block .name {
+  font-family: "American Captain";
+  font-size: 45px;
+  color: #000000;
+  letter-spacing: 4px;
+  line-height: 45px;
+}
+
+.container-wrapper .container .right-wrapper .big-name-block .position {
+  font-family: "DinPro";
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.1px;
+}
+
+.menu-toggler {
+  position: absolute;
+  right: 26px;
+  top: 0;
+}
+
+.bio-block {
+  border-bottom: 3px solid #000000;
+  padding-bottom: 10px;
+}
+
+.bio-block .short-bio {
+  margin-top: 30px;
+  font-family: "DinPro";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.01px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.section-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+.section-header .section-title {
+  font-family: "American Captain";
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: 3.7px;
+  text-align: center;
+  line-height: 44px;
+  margin-top: 7px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.section-header .title-spacer {
+  background: rgba(148, 146, 146, 0.7);
+  border: 1px dashed #d8d8d8;
+  height: 22px;
+  width: 100%;
+  position: relative;
+}
+
+.section-header .title-spacer .title-italic {
+  font-family: "Great Day Personal Use";
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: 4.32px;
+  text-align: center;
+  text-transform: capitalize;
+  position: absolute;
+  right: 20px;
+}
+
+.prof-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.prof-inner .skills-col {
+  width: 50%;
+}
+
+.prof-inner .skills-col:first-child {
+  margin-right: 50px;
+}
+
+.skill-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+}
+
+.skill-item:hover .skill-leveler .leveler-inner {
+  background-color: #620000;
+}
+
+.skill-item h3 {
+  font-family: "American Captain";
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 1.31px;
+  text-align: justify;
+  width: 15%;
+}
+
+.skill-item h3.skill-name {
+  text-align: left;
+}
+
+.skill-item h3.skill-percent {
+  text-align: right;
+}
+
+.skill-item .skill-leveler {
+  width: 70%;
+  height: 34px;
+  background-color: #D8D8D8;
+  -webkit-border-radius: 17px;
+     -moz-border-radius: 17px;
+          border-radius: 17px;
+  position: relative;
+}
+
+.skill-item .skill-leveler .leveler-inner {
+  position: absolute;
+  height: 34px;
+  background-color: #626262;
+  -webkit-border-radius: 17px 0 0 17px;
+     -moz-border-radius: 17px 0 0 17px;
+          border-radius: 17px 0 0 17px;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.work-block .work-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+}
+
+.work-block .work-inner .left-block {
+  width: 130px;
+  min-width: 130px;
+  max-width: 130px;
+  border-right: 3px solid #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.work-block .work-inner .left-block .year-label {
+  height: 33px;
+  width: 110px;
+  background-image: url("./../images/icons/label.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  position: relative;
+}
+
+.work-block .work-inner .left-block .year-label.active {
+  background-image: url("./../images/icons/label_active.svg");
+}
+
+.work-block .work-inner .left-block .year-label.active:before {
+  background-color: #620000;
+}
+
+.work-block .work-inner .left-block .year-label h3 {
+  position: absolute;
+  top: 6px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  font-family: "American Captain";
+  font-size: 25px;
+  color: #ffffff;
+  letter-spacing: 3.08px;
+  text-align: center;
+}
+
+.work-block .work-inner .left-block .year-label:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 11px;
+  width: 11px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #000000;
+  left: 126px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.work-block .work-inner .right-block {
+  width: 100%;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.work-block .work-inner .right-block .work-info h3 {
+  font-family: "American Captain";
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 4.32px;
+  text-align: left;
+}
+
+.work-block .work-inner .right-block .work-info h5 {
+  font-family: "DinPro";
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+
+.portfolio-list .portfolio-item {
+  margin-bottom: 20px;
+}
+
+.portfolio-list .portfolio-item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-list .portfolio-item .img-holder {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.portfolio-list .portfolio-item .img-holder img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio-list .portfolio-item .portfolio-title {
+  font-family: "American Captain";
+  font-size: 35px;
+  color: #000000;
+  letter-spacing: 2.01px;
+  text-align: left;
+}
+
+.portfolio-list .portfolio-item .short-info {
+  font-family: "DinPro";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.04px;
+  text-align: left;
+}
+
+.single-wrapper .single-content p {
+  font-family: "DinPro";
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: -0.8px;
+  text-align: justify;
+}
+
+.single-wrapper .single-content img {
+  width: 100%;
+  height: auto;
+}
+
+.single-wrapper .single-gallery .gallery-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.single-wrapper .single-gallery .gallery-inner .gallery-item {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.single-wrapper .single-gallery .gallery-inner .gallery-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/icons/gal_over.svg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  -webkit-transition: all ease 0.7s;
+  -o-transition: all ease 0.7s;
+  -moz-transition: all ease 0.7s;
+  transition: all ease 0.7s;
+}
+
+.single-wrapper .single-gallery .gallery-inner .gallery-item:hover:before {
+  width: 0px;
+  height: 0px;
+}
+
+.single-wrapper .single-gallery .gallery-inner .gallery-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.posts-list .posts-inner .post-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.posts-list .posts-inner .post-item:last-child {
+  margin-bottom: 0;
+}
+
+.posts-list .posts-inner .post-item .img-holder {
+  width: 250px;
+  min-width: 250px;
+  height: 150px;
+  min-height: 150px;
+  margin-right: 20px;
+}
+
+.posts-list .posts-inner .post-item .img-holder img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.posts-list .posts-inner .post-item .info-holder h3 {
+  font-family: "American Captain";
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 3.7px;
+}
+
+.posts-list .posts-inner .post-item .info-holder span {
+  font-family: "DinPro";
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0.13px;
+}
+
+.gallery-wrapper .gallery-header {
+  height: 50px;
+  margin: 60px 0;
+}
+
+.gallery-wrapper .gallery-header .icon-holder {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.gallery-wrapper .gallery-header .icon-holder:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  background: rgba(148, 146, 146, 0.7);
+  border: 1px dashed #646464;
+  height: 22px;
+  top: 0;
+  bottom: 0;
+  width: 43%;
+  left: 0;
+}
+
+.gallery-wrapper .gallery-header .icon-holder:after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  background: rgba(148, 146, 146, 0.7);
+  border: 1px dashed #646464;
+  height: 22px;
+  top: 0;
+  bottom: 0;
+  width: 43%;
+  right: 0;
+}
+
+.gallery-wrapper .gallery-header .icon-holder img {
+  height: 50px;
+  width: 62px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 345px;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item .item-left {
+  width: 50%;
+  min-width: 50%;
+  height: auto;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item .item-left img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item .item-right {
+  width: 50%;
+  min-width: 50%;
+  background-color: #d8d8d8;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item .item-right .right-inner {
+  padding: 30px;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item .item-right .right-inner .desc {
+  font-family: "DinPro";
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0.67px;
+  display: block;
+  text-align: justify;
+}
+
+.gallery-wrapper .gallery-inner .gallery-item .item-right .right-inner .date {
+  font-family: SnellRoundhand;
+  font-size: 34px;
+  color: #000000;
+  letter-spacing: 1.13px;
+  display: block;
+  margin-top: 30px;
+}
+
+.post-wrapper .post-inner {
+  margin-top: 20px;
+}
+
+.post-wrapper .post-inner p {
+  font-family: "DinPro";
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: -0.8px;
+  text-align: justify;
+}
+
+.post-wrapper .post-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.post-wrapper .post-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.post-wrapper .post-inner blockquote {
+  background: #D8D8D8;
+  margin: 0;
+  padding: 25px;
+  font-family: "DinPro";
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: -0.8px;
+  text-align: justify;
+}
+
+.post-wrapper .post-inner blockquote h2 {
+  font-family: "American Captain";
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: 1.97px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+.post-wrapper .post-inner blockquote h2:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  background-image: url("../images/icons/type.svg");
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.post-wrapper .post-inner .embedded .embed-inner {
+  background: #D8D8D8;
+  margin: 0;
+  padding: 25px;
+  font-family: "DinPro";
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: -0.8px;
+  text-align: justify;
+}
+
+.post-wrapper .post-inner .embedded .embed-inner h2 {
+  font-family: "American Captain";
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: 1.97px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+.post-wrapper .post-inner .embedded .embed-inner h2:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  background-image: url("../images/icons/www.svg");
+  -webkit-background-size: contain;
+     -moz-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.post-wrapper .post-inner .embedded .embed-inner p {
+  margin-bottom: 0;
+}
+
+.post-wrapper .post-inner .embedded a {
+  background: #000000;
+  font-family: "DinPro";
+  font-weight: 300;
+  font-size: 19px;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  display: block;
+  padding: 10px 25px;
+  text-decoration: none;
+}
